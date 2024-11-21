@@ -1,0 +1,115 @@
+/* Service.css */
+
+.services-description {
+    max-width: 2000px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.services-description h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+input[type="text"], select {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus, select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.reset {
+    background-color: #dc3545;
+}
+
+button.reset:hover {
+    background-color: #a71d2a;
+}
+
+.popular-spots {
+    display: flex; /* Changed from grid to flex for precise control */
+    flex-wrap: wrap; /* Ensures cards wrap to the next row on smaller screens */
+    gap: 20px; /* Adds space between cards */
+    justify-content: center; /* Centers the cards horizontally */
+    padding: 20px;
+}
+
+.spot-card {
+    flex: 0 1 calc(25% - 20px); /* 4 cards per row, adjusts for gap */
+    max-width: calc(25% - 20px); 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+
+.spot-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.spot-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.spot-card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+.spot-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.spot-card span {
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #007bff;
+    background-color: #eef6ff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
