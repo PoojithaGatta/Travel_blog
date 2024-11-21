@@ -4,27 +4,6 @@ import Hero from "../components/Hero";
 import AboutImage from "../components/assets/12.jpg";
 import './Service.css';
 
-import mImage from "../components/assets/Marina.jpg";
-import m3Image from "../components/assets/m1.jpg";
-import m4Image from "../components/assets/f1.jpg";
-import m5Image from "../components/assets/k.jpg";
-
-import kImage from "../components/assets/munnar.jpg";
-import k1Image from "../components/assets/wayand.jpg";
-import k2Image from "../components/assets/Allepey.jpg";
-import k3Image from "../components/assets/Kochi.jpg";
-
-import dImage from "../components/assets/red_fort.jpg";
-import d1Image from "../components/assets/india_gate.jpg";
-import d2Image from "../components/assets/qutab_minar.jpg";
-import d3Image from "../components/assets/lotus_temple.jpg";
-
-import gImage from "../components/assets/Aguda fort.jpg";
-import g1Image from "../components/assets/Dudhsagar water.jpg";
-import g2Image from "../components/assets/Anjuna beach.jpg";
-import g3Image from "../components/assets/temple.jpg";
-
-// Sample data for demonstration. Replace this with a real API call to fetch popular spots.
 const popularSpotsData = {
     "Tamil Nadu": [
     {
